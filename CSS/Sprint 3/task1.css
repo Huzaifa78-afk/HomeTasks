@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(235, 239, 241);
+}
+h3, a, p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+header{
+    display: flex;
+    justify-content: start;
+    /* border: 1px solid black; */
+    color: blue;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 1px 2px grey;
+}
+header h3{
+    padding: 0.8rem;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.div1{
+    background-color: rgb(221, 243, 250);
+    padding: 1rem 3rem;
+    margin: 3rem;
+    border-radius: 1px;
+    border-left: 5px solid blue;
+}
+.div1 h3{
+    padding-bottom: 1rem;
+    color: blue;
+}
+.profilecard{
+    display: flex;
+     justify-content: center;
+     align-items: center;  
+}
+.div2{
+    position: relative;
+    background-color: white;
+    margin: 2rem;
+    padding: 4rem 4rem 2rem 4rem;
+    border-radius: 1px;
+    /* padding-bottom: 1rem; */
+    box-shadow: 0 1px 2px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: -1;
+}
+.div2 img{
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: -6rem;
+    border: 3px solid white;
+}
+.div2 h3{
+    padding: 0.6rem 0 0.3rem 0;
+}
+.div2 p{
+    padding: 0 0 0.3rem 0;
+    font-size: 0.8rem;
+}
+.div2 a{
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    background-color: blue;
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    border-radius: 3px;
+}
+.div2 a:hover{
+    background-color: black;
+    color: white;
+}
+.div2 span{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    padding: 1% 3%;
+}
+.demonstrate {
+    background-color: white;
+    margin: 0 10vw 2vh 10vw;
+    padding: 5rem;
+    border-radius: 5px;
+}
+.demonstrate h3{
+    margin-bottom: 2rem;
+}
+.fixedbutton button{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: blue;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+}
+button:hover{
+    background-color: black;
+}
+@media (max-width:768px){
+    .div1{
+        margin: 2rem;
+        padding: 1rem;
+    }
+    .demonstrate{
+        margin: 0 5vw 2vh 5vw;
+        padding: 2rem;
+    }
+}
+@media(max-width:450px)
+{
+    .div1{
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+    .profilecard{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .div2{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .demonstrate{
+        padding: 1rem;
+        margin: 0 4vw 1vh 4vw;
+    }
+    .fixedbutton button{
+        padding: 0.5rem 1rem;
+        bottom: 0;
+        right: 0;
+    }
+}

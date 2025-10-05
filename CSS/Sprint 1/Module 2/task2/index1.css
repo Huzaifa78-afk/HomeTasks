@@ -1,0 +1,47 @@
+
+.div1 {
+    background-image:url(https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg);
+}
+.div1 h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+
+}
+.div1 p{
+    text-align: center;
+    color: rgb(34, 26, 109);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    
+}
+
+.section{
+    background-color: palevioletred;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    padding: 10px;
+    border: 50% green;
+    margin: 0%;
+    align-self: center;
+}
+.box h1{
+    color: black;
+    text-align: center;
+}
+.box p{
+    color: black;
+    text-align: center;
+}
+.footer p{
+    text-align: center;
+    color: black;
+}

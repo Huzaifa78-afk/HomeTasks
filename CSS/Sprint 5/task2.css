@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p,h1,h2,h3,a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+header{
+    /* height: 3rem; */
+    width: 100%;
+    background-color: rgb(10, 59, 92);   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1.5rem;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 1.2rem;
+}
+header a:hover{
+    background-color: white;
+    color: rgb(10, 59, 92);
+}
+.hero{
+    background-image:url(dark-gradient-0pkijn4m63be9zse.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 20rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.hero h1{
+    text-align: center;
+    color: white;
+    padding-top: 6rem;
+    font-size:300%;
+}
+.hero p{
+    color: white;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.hero a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 2rem;
+    margin: 2rem 0 ;
+    background-color: rgb(212, 68, 32);
+    border-radius: 0.3rem;
+}
+.hero a:hover{
+    background-color: black;
+    color:white;
+}
+.features h2{
+    text-align: center;
+    margin: 3rem 0;
+}
+.featuresdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.featurescard{
+    width: 20rem;
+    height: 9rem;
+    background-color: rgb(237, 237, 240);
+    border-radius: 0.3rem;
+    margin: 0.3rem;
+}
+.featurescard h3{
+    text-align: center;
+    margin-top: 2.3rem;
+    color: rgb(8, 15, 80);
+    font-weight:bolder;
+}
+.featurescard p{
+    text-align: center;
+    margin: 1.7rem;
+    color:rgb(8, 15, 80) ;
+    font-weight: lighter;
+    font-size: small;
+}
+.pricing{
+    margin: 3rem 1rem;
+    background-color:rgb(237, 237, 240) ;
+}
+.pricing h2{
+    text-align: center;
+    /* margin: 3rem; */
+    padding: 3rem;
+}
+.pricingdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pricingcard{
+    height: 9rem;
+    width: 15rem;
+    border-radius: 0.3rem;
+    background-color: white;
+    margin: 0 0.3rem 2rem 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pricingcard h3{
+    /* text-align: center; */
+    color:rgb(8, 15, 80) ;
+    margin: 1rem 0;
+}
+.pricingcard p{
+    text-align: center;
+    color: brown;
+    font-weight: bolder;
+    margin-bottom: 0.3rem;
+}
+.pricingcard a{
+    text-decoration: none;
+    padding: 0.3rem 1rem;
+    background-color:rgb(8, 15, 80);
+    color: white;
+    border-radius: 0.3rem;
+}
+.pricingcard a:hover{
+    background-color: lightgray;
+    color: rgb(8, 15, 80);
+}
+.contact h2{
+    text-align: center;
+}
+.contactdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 2rem;
+}
+.contactdiv label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0.5rem 0;
+    /* align-self:center; */
+}
+.contactdiv input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 0.2rem;
+    box-shadow: 0 1px 2px rgb(53, 50, 50);
+    height: 1.8rem;
+    width: 45%;
+    border: 1px solid white;
+    
+}
+.contactdiv textarea{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 0.2rem;
+    border: 1px solid white;
+    box-shadow: 0 1px 2px rgb(53, 50, 50);
+    height: 5rem;
+    width: 45%;
+}
+.contactdiv a{
+    padding: 0.4rem 0.8rem;
+    /* border: 1px solid black; */
+    background-color:rgb(212, 68, 32) ;
+    /* align-self: flex-start; */
+    color: white;
+    margin: 0.6rem 0;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    box-shadow: 0 1px 2px rgb(53, 50, 50);    
+}
+.contactdiv a:hover{
+    background-color: lightgray;
+    color:rgb(212, 68, 32);
+}
+footer{
+    background-color: rgb(7, 45, 71);  
+}
+footer p{
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+}
+
+ @media (max-width: 768px) { 
+
+     .hero h1 {
+        font-size: 180%;
+        padding: 2rem 1rem 0 1rem;
+    }
+    .hero p {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+    .hero a {
+        padding: 0.5rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+     .featuresdiv {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .featurescard {
+        width: 90%;
+        margin: 0.5rem auto;
+    }
+
+     .pricingdiv {
+        flex-direction: column;
+    }
+    .pricingcard {
+        width: 90%;
+        margin: 0.8rem auto;
+    }
+
+     .contactdiv {
+        padding: 1rem;
+        
+    }
+    .contactdiv input,
+    .contactdiv textarea {
+        width: 100%;
+        max-width: 100%;
+    }
+    @media (max-width:450px)
+    {
+        .hero h1{
+            font-size: 150%;
+        }
+        h2{
+            font-size: 1.2rem;
+        }
+        h3{
+            font-size: 1rem;
+        }
+        footer p{
+            padding: 0.5rem;
+        }
+    }
+}  

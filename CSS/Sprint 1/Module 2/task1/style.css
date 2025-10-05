@@ -1,0 +1,63 @@
+.header{
+    background-color: #2980b9;
+    text-align: center;
+
+}
+.header h1{
+    font-style: oblique;
+}
+.header p{
+    font-weight: bold;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(11, 3, 41);
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(63, 4, 119);
+}
+.navbar li{
+    float:left;
+}
+.section1{
+    background-color: rgb(205, 221, 216);
+}
+.section1 h1{
+    color: rgb(5, 63, 44);
+}
+.section1 p{
+    color: black;
+}
+.section2{
+    background-color: rgb(150, 163, 159);
+}
+.section2 h1{
+    color: rgb(5, 63, 44);
+}
+.section2 p{
+    color: black;
+}
+.section3{
+    background-color: aqua;
+}
+.section3 h1{
+    color: rgb(5, 63, 44);
+}
+.section3 li{
+    color: black;
+}
+.footer{
+    text-align: center;
+    background-color:rgb(11, 3, 41) ;
+}
+
